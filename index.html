@@ -21,6 +21,16 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ff28d03ce1.js" crossorigin="anonymous"></script>
+
     <!-- Vendor CSS Files -->
     <link href="/assets/vendors/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/vendors/css/bootstrap-icons.css" rel="stylesheet">
@@ -50,9 +60,10 @@
             <ul>
                 <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
                 <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
+                <li><a href="#skills"><i class="bi bi-tools navicon}"></i><span>Skills</span></a></li>
                 <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
                 <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-                <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
                 <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
             </ul>
         </nav>
@@ -65,6 +76,7 @@
         <section id="hero" class="hero section light-background">
 
             <img src="assets/img/hero-bg.jpg" alt="">
+            <img class="site-logo" src="assets/img/BjornBottin Logo NoName.png" alt="">
 
             <div class="container" data-aos="zoom-out">
                 <div class="row justify-content-center">
@@ -74,10 +86,13 @@
                                 data-typed-items="Front-End Developer, Freelancer, Videographer">Designer</span><span
                                 class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
                         <div class="social-links">
-                            <a href="#"><i class="bi bi-twitter-x"></i></a>
-                            <a href="#"><i class="bi bi-facebook"></i></a>
-                            <a href="#"><i class="bi bi-instagram"></i></a>
-                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://x.com/BjornBottin" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://www.facebook.com/BjornBottin.co.za/" target="_blank"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/bottinb/" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/bjorn-bottin/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -91,58 +106,66 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>About</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <!-- <p>I am a experienced Microsoft SharePoint Specialist and Front-End Web Developer who managed the
+                    intranet and mobile platforms for the Abu Dhabi Investment Authority (ADIA) in the United Arab
+                    Emirates (UAE), one of the world’s largest financial institutions in the United Arab Emirates and
+                    previously managed the SharePoint intranet and internet environments for Life Healthcare, one of the
+                    largest private hospital groups in South Africa.</p> -->
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="row gy-4 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/profile-img.png" class="img-fluid" alt="">
+                        <!-- <img src="assets/img/profile-img.png" style="float:left;" alt=""> -->
                     </div>
                     <div class="col-lg-8 content">
-                        <h2>UI/UX Designer &amp; Web Developer.</h2>
-                        <p class="fst-italic py-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                            1995</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                            7890</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                            USA</span></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6">
-                                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a
-                                                href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                                data-cfemail="640109050d0824011c05091408014a070b09">[email&#160;protected]</a></span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <!-- <h2>Front-End Web Developer</h2> -->
                         <p class="py-3">
-                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
-                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
-                            itaque neque.
+                            I am an experienced Microsoft SharePoint Specialist and Front-End Web Developer, with a
+                            strong background in managing intranet and mobile platforms for leading organizations. At
+                            the Abu Dhabi Investment Authority (ADIA) in the UAE, one of the world’s largest financial
+                            institutions, I oversaw SharePoint and web development. Prior to this, I managed SharePoint
+                            intranet and internet environments for Life Healthcare, one of South Africa's largest
+                            private hospital groups.
+                        </p>
+                        <p>
+                            Born and raised in South Africa, I initially pursued a B.Com in Accounting and Informatics
+                            before transitioning into IT, earning my Microsoft Certified Systems Engineer (MCSE)
+                            qualification in 1999. During my studies, I gained hands-on experience as a Junior LAN
+                            Administrator at Nedbank, contributing to Y2K compliance projects.
+                        </p>
+                        <p>
+                            My professional journey began in data analytics and intranet development at an insurance
+                            company, where I first encountered Microsoft SharePoint. In 2007, I joined Life Healthcare
+                            as a SharePoint Administrator and external webmaster, working with SharePoint versions 2007,
+                            2010, and 2013 while developing expertise in web design and coding.
+                        </p>
+                        <p>
+                            In 2015, I relocated to the UAE to work as a SharePoint Administrator and Front-End Web
+                            Developer for ADIA, delivering tailored solutions using SharePoint versions 2010, 2013, and
+                            2016. Since returning to South Africa in 2019, I have operated as a freelance consultant,
+                            specializing in Web Development, Microsoft 365, and SharePoint services and various other IT
+                            related services.
+                        </p>
+                        <h2>What I Do</h2>
+                        <p>
+                            I specialize in front-end web development, focusing on creating visually appealing and
+                            functional websites. Additionally, I handle some back-end tasks, including hosting
+                            environment setup and configuration.
+                        </p>
+                        <p>
+                            I also assist organizations in maximizing their use of Microsoft SharePoint as an intranet
+                            platform. This includes server and SharePoint environment setup, consulting with
+                            stakeholders, and implementing both out-of-the-box features and custom solutions tailored to
+                            business needs.
+                        </p>
+                        <p>
+                            With over 24 years of IT experience, my expertise spans building and upgrading computers,
+                            LAN network administration, software and hardware troubleshooting, and setting up home and
+                            small business networks. For a detailed overview of my current services, please refer to the
+                            full service list.
                         </p>
                     </div>
                 </div>
@@ -151,380 +174,15 @@
 
         </section><!-- /About Section -->
 
-        <!-- Stats Section -->
-        <section id="stats" class="stats section">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-emoji-smile"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-journal-richtext"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Projects</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-headset"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-people"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Hard Workers</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Stats Section -->
-
-        <!-- Skills Section -->
-        <section id="skills" class="skills section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Skills</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="row skills-content skills-animation">
-
-                    <div class="col-lg-6">
-
-                        <div class="progress">
-                            <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                        <div class="progress">
-                            <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                        <div class="progress">
-                            <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                    </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="progress">
-                            <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                        <div class="progress">
-                            <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                        <div class="progress">
-                            <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div><!-- End Skills Item -->
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section><!-- /Skills Section -->
-
-        <!-- Resume Section -->
-        <section id="resume" class="resume section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Sumary</h3>
-
-                        <div class="resume-item pb-0">
-                            <h4>Brandon Johnson</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
-                                    and developing user-centered digital/print marketing material from initial concept
-                                    to final, polished deliverable.</em></p>
-                            <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                        data-cfemail="0e6f62676d6b206c6f7c65626b774e6b766f637e626b206d6163">[email&#160;protected]</a>
-                                </li>
-                            </ul>
-                        </div><!-- Edn Resume Item -->
-
-                        <h3 class="resume-title">Education</h3>
-                        <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-                        </div><!-- Edn Resume Item -->
-
-                        <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-                                ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-                                consequatur neque etlon sader mart dila</p>
-                        </div><!-- Edn Resume Item -->
-
-                    </div>
-
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                        <h3 class="resume-title">Professional Experience</h3>
-                        <div class="resume-item">
-                            <h4>Senior graphic design specialist</h4>
-                            <h5>2019 - Present</h5>
-                            <p><em>Experion, New York, NY </em></p>
-                            <ul>
-                                <li>Lead in the design, development, and implementation of the graphic, layout, and
-                                    production communication materials</li>
-                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all
-                                    aspects of the project. </li>
-                                <li>Supervise the assessment of all graphic materials in order to ensure quality and
-                                    accuracy of the design</li>
-                                <li>Oversee the efficient use of production project budgets ranging from $2,000 -
-                                    $25,000</li>
-                            </ul>
-                        </div><!-- Edn Resume Item -->
-
-                        <div class="resume-item">
-                            <h4>Graphic design specialist</h4>
-                            <h5>2017 - 2018</h5>
-                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                            <ul>
-                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations,
-                                    and advertisements).</li>
-                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                <li>Created 4+ design presentations and proposals a month for clients and account
-                                    managers</li>
-                            </ul>
-                        </div><!-- Edn Resume Item -->
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section><!-- /Resume Section -->
-
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Card</li>
-                        <li data-filter=".filter-branding">Web</li>
-                    </ul><!-- End Portfolio Filters -->
-
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
-                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 1</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2"
-                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 2</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
-                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Product 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
-                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Branding 3</h4>
-                                <p>Lorem ipsum, dolor sit</p>
-                                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
-                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                        class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                    </div><!-- End Portfolio Container -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Portfolio Section -->
-
         <!-- Services Section -->
         <section id="services" class="services section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    fugiat sit in iste officiis commodi quidem hic quas.</p> -->
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -542,10 +200,8 @@
                                 <i class="bi bi-activity"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Nesciunt Mete</h3>
+                                <h3>Web Development</h3>
                             </a>
-                            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                                iure perferendis tempore et consequatur.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -560,10 +216,8 @@
                                 <i class="bi bi-broadcast"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Eosle Commodi</h3>
+                                <h3>SharePoint Administration</h3>
                             </a>
-                            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum
-                                hic non ut nesciunt dolorem.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -578,10 +232,8 @@
                                 <i class="bi bi-easel"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Ledo Markt</h3>
+                                <h3>SharePoint Development</h3>
                             </a>
-                            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id
-                                voluptas adipisci eos earum corrupti.</p>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -596,11 +248,9 @@
                                 <i class="bi bi-bounding-box-circles"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Asperiores Commodit</h3>
+                                <h3>Consultation</h3>
+                                <h3>Technical Suppport</h3>
                             </a>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga
-                                sit provident adipisci neque.</p>
-                            <a href="#" class="stretched-link"></a>
                         </div>
                     </div><!-- End Service Item -->
 
@@ -615,7 +265,7 @@
                                 <i class="bi bi-calendar4-week icon"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Velit Doloremque</h3>
+                                <h3>Home / Small Business Network</h3>
                             </a>
                             <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed
                                 animi at autem alias eius labore.</p>
@@ -634,174 +284,968 @@
                                 <i class="bi bi-chat-square-text"></i>
                             </div>
                             <a href="#" class="stretched-link">
-                                <h3>Dolori Architecto</h3>
+                                <h3>Desktop & Mobile Software Support</h3>
                             </a>
-                            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                                Corrupti recusandae ducimus enim.</p>
-                            <a href="#" class="stretched-link"></a>
                         </div>
                     </div><!-- End Service Item -->
 
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                        <div class="service-item item-pink position-relative">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <a href="#" class="stretched-link">
+                                <h3>Microsoft 365 Setup & Support</h3>
+                            </a>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                        <div class="service-item item-pink position-relative">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <a href="#" class="stretched-link">
+                                <h3>Training / IT Management</h3>
+                            </a>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
+                        <div class="service-item item-pink position-relative">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                                        d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762">
+                                    </path>
+                                </svg>
+                                <i class="bi bi-chat-square-text"></i>
+                            </div>
+                            <a href="#" class="stretched-link">
+                                <h3>Videography</h3>
+                                <h3>Video Editing</h3>
+                            </a>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                </div>
+
+                <div class="row gy-4" style="margin-top: 100px;">
+
+                    <div class="row" id="service1">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fab fa-html5 fa-5x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Web Development / Web Master</h3>
+                            <ul>
+                                <li>UI/UX Design &#8211; Look and feel of site, navigation of pages and information.
+                                </li>
+                                <li>Website Design &#8211; Create a custom theme as per clients design.</li>
+                                <li>Website Development &#8211; Creation of all the web pages, navigation, menus,
+                                    graphics/images.</li>
+                                <li>Logo Design</li>
+                                <li>Photography &#038; Videography &#8211; Rich multimedia to add onto website</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service2">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-server fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>SharePoint Administration</h3>
+                            <ul>
+                                <li>Installation of Windows Server in physical or virtual environment.</li>
+                                <li>Website Design &#8211; Create a custom theme as per clients design.</li>
+                                <li>Website Development &#8211; Creation of all the web pages, navigation, menus,
+                                    graphics/images.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service3">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-code fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>SharePoint Development</h3>
+                            <ul>
+                                <li>Software as a Service (SAAS)</li>
+                                <li>Creation of SharePoint Portals, Team sites, pages, libraries, lists.</li>
+                                <li>Creation of Bespoke SharePoint theme, pages, master pages.</li>
+                                <li>Staff training on how to administer &#038; use SharePoint</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service4">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-users-cog fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Consultation / Technical Support</h3>
+                            <ul>
+                                <li>Hardware as a Service (HAAS).</li>
+                                <li>Diagnosis, testing, upgrade and repair of desktop and mobile hardware.</li>
+                                <li>Cleaning out dust of computer hardware</li>
+                                <li>Updating Anti-Virus, Anti-Spyware, Firewall, and Other Security Programs</li>
+                                <li>Spyware, Adware &#038; Virus removal</li>
+                                <li>Maintenance on Windows &#038; Windows Server Operating system</li>
+                                <li>Staff training on How to Keep Your System Maintained and How to Avoid Re-infecting
+                                    Computers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service5">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-wifi fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Home / Small Business Network</h3>
+                            <ul>
+                                <li>Installation of DSL or Fibre routers.</li>
+                                <li>Setup &#038; configuration of routers, extenders.</li>
+                                <li>Diagnosis of network, network connection.</li>
+                                <li>Setup of all devices on network.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service6">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-desktop fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Desktop &#038; Mobile Software Support</h3>
+                            <ul>
+                                <li>Software as a Service (SAAS).</li>
+                                <li>Updating Anti-Virus, Anti-Spyware, Firewall, and Other Security Programs</li>
+                                <li>Spyware, Adware &#038; Virus removal</li>
+                                <li>Maintenance on Windows &#038; Windows Server Operating system</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service7">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fab fa-microsoft fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Microsoft 365 Setup &#038; Support</h3>
+                            <ul>
+                                <li>Software as a Service (SAAS).</li>
+                                <li>Setup of Microsoft 365 for personal, small and medium business.</li>
+                                <li>Installation and configuration of Microsoft 365.</li>
+                                <li>Staff training on how to use Microsoft 365 and make the most of it.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row" id="service8">
+                        <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                            <i class="icon-float fas fa-people-arrows fa-4x"></i>
+                        </div>
+                        <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                            <h3>Training / IT Management</h3>
+                            <ul>
+                                <li>Training of staff &#038; individuals.</li>
+                                <li>Training on Microsoft 365 &#038; MS SharePoint.</li>
+                                <li>Training on any other basic IT skills.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
         </section><!-- /Services Section -->
 
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section">
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Testimonials</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Skills</h2>
+                <p>Skills acquired throughout my IT career</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="swiper init-swiper">
-                    <script data-cfasync="false"
-                        src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                    <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-                    <div class="swiper-wrapper">
+                <div class="row skills-content skills-animation">
 
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora
-                                                    entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                                                    eget nibh et. Maecen aliquam, risus at semper.</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="assets/img/testimonials/testimonials-1.jpg"
-                                            class="img-fluid testimonial-img" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
+                    <div class="col-lg-6">
 
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>Export tempor illum tamen malis malis eram quae irure esse labore
-                                                    quem cillum quid cillum eram malis quorum velit fore eram velit sunt
-                                                    aliqua noster fugiat irure amet legam anim culpa.</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="assets/img/testimonials/testimonials-2.jpg"
-                                            class="img-fluid testimonial-img" alt="">
-                                    </div>
-                                </div>
+                        <h2>Web Development</h2>
+                        <div class="progress">
+                            <span class="skill"><span>HTML</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div><!-- End Skills Item -->
 
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>Enim nisi quem export duis labore cillum quae magna enim sint
-                                                    quorum nulla quem veniam duis minim tempor labore quem eram duis
-                                                    noster aute amet eram fore quis sint minim.</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="assets/img/testimonials/testimonials-3.jpg"
-                                            class="img-fluid testimonial-img" alt="">
-                                    </div>
-                                </div>
+                        <div class="progress">
+                            <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div><!-- End Skills Item -->
 
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
-                                                    export minim fugiat minim velit minim dolor enim duis veniam ipsum
-                                                    anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="assets/img/testimonials/testimonials-4.jpg"
-                                            class="img-fluid testimonial-img" alt="">
-                                    </div>
-                                </div>
+                        <div class="progress">
+                            <span class="skill"><span>JavaScript</span> <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>MS SharePoint</span> <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>MS Visual Studio</span> <i class="val">60%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>VS Code</span> <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Bootstrap</span> <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>WordPress</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Github</span> <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Docker</span> <i class="val">35%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>UI UX Design</span> <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>P5.js</span> <i class="val">35%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Node.js / Express.js</span> <i class="val">20%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Scrum Master / Owner</span> <i class="val">65%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>C# / asp.Net</span> <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Powershell</span> <i class="val">25%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
 
                     </div>
-                    <div class="swiper-pagination"></div>
+
+                    <div class="col-lg-6">
+                        <h2>Videography</h2>
+                        <div class="progress">
+                            <span class="skill"><span>Davinci Resolve</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Final Cut Pro</span> <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <h2>Microsoft SharePoint</h2>
+
+                        <div class="progress">
+                            <span class="skill"><span>Windows Server Administration</span> <i class="val">65%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>IIS / Web Server Administration</span> <i
+                                    class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>SharePoint Server Farm Administration</span> <i
+                                    class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Portal and Site Design / Setup</span> <i
+                                    class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>SharePoint Security</span> <i class="val">80%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Backend Development</span> <i class="val">35%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Bespoke Sites & Graphics</span> <i class="val">70%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Business Consultation & Training</span> <i
+                                    class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <h2>Graphics</h2>
+
+                        <div class="progress">
+                            <span class="skill"><span>Adobe Photoshop</span> <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Adobe Lightroom</span> <i class="val">25%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Gimp / Affinity Photo / CorelDRAW</span> <i
+                                    class="val">30%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <h2>IT Support</h2>
+
+                        <div class="progress">
+                            <span class="skill"><span>Network/PC Support</span> <i class="val">85%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                        <div class="progress">
+                            <span class="skill"><span>Business Analyst</span> <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div><!-- End Skills Item -->
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </section><!-- /Testimonials Section -->
+        </section><!-- /Skills Section -->
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Resume</h2>
+                <p class="py-3">I’m a web developer experienced in building websites for small and medium-sized
+                    businesses. I am also a highly experienced in Microsoft SharePoint and gained some
+                    valuable skills over the last few years in videography and video editing. Over the
+                    years, I have developed websites and intranets for large corporations as well as
+                    medium to small businesses, applying my ability to learn quickly and implement
+                    effective solutions.</p>
+                <p> class="py-3"In addition to web development, I have successfully built a YouTube channel for a
+                    small aviation magazine, where I honed my skills in videography and video editing.
+                    This experience has given me a unique blend of technical and creative abilities,
+                    allowing me to approach projects from both an analytical and artistic perspective.</p>
+                <p class="py-3">My work philosophy centres around doing tasks with precision and care—I believe in
+                    doing the work properly or not at all. I am highly self-critical, always striving for
+                    perfection in my work, even when others view it as exceptional. I bring this
+                    dedication to every project I undertake, ensuring that my contributions are of the
+                    highest quality.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>BSc Computer Science</h4>
+                            <h5>October 2021 - Current</h5>
+                            <p><em>University of London, UK</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>SharePoint 2016 Site Owner, User & 365 Certificate</h4>
+                            <h5>May 2019</h5>
+                            <p><em>Udemy (Online Course)</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Web Design Certificate</h4>
+                            <h5>August - October 2018</h5>
+                            <p><em>University of Cape Town (UCT)</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Information Systems Management Certificate</h4>
+                            <h5>March - May 2018</h5>
+                            <p><em>University of Cape Town (UCT)</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Certified Scrum Master & Certified Scrum Owner</h4>
+                            <h5>2016</h5>
+                            <p><em>Scrum Alliance</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>CIW Site Designer & CIW Foundations</h4>
+                            <h5>2001</h5>
+                            <p><em>New Horizon</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Microsoft Certified Professional & System Engineer</h4>
+                            <h5>1999</h5>
+                            <p><em>The Zone Computer Career Campus</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>B.Com Business Management and Accounting (Informatics)</h4>
+                            <h5>1996 - 1998 (Incomplete)</h5>
+                            <p><em>University of Potchefstroom</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>National Senior Certificate</h4>
+                            <h5>1991 - 1995</h5>
+                            <p><em>Hoërskool (Highschool) Driehoek</em></p>
+                        </div><!-- Edn Resume Item -->
+
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Freelance IT Consultant / Manager / Web Developer / Videographer</h4>
+                            <h5>September 2020 - September 2024</h5>
+                            <p><em>African Pilot, Jhb ZA </em></p>
+                            <p>Consultant for various small businesses, giving advice on IT systems and networks,
+                                software troubleshooting, fixing of computer hardware. Installation of software, setup
+                                of SharePoint Online, Office 365 and other software packages. Development and
+                                maintenance of company websites.</p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Freelancer / IT Consultant / Web Developer</h4>
+                            <h5>January 2019 - Current</h5>
+                            <p><em>BjornBottin (Freelancing), Jhb ZA</em></p>
+                            <p>Consultant for various small businesses, giving advice on IT systems and networks,
+                                software troubleshooting, fixing of computer hardware. Installation of software, setup
+                                of SharePoint Online, Office 365 and other software packages. Development and
+                                maintenance of company websites.</p>
+                        </div><!-- Edn Resume Item -->
+
+
+                        <div class="resume-item">
+                            <h4>SharePoint Administrator</h4>
+                            <h5>January 2016 - December 2018</h5>
+                            <p><em>Abu Dhabi Investment Authority (ADIA), Abu Dhabi UAE</em></p>
+                            <p>Intranet Administration of top-level SharePoint sites. Consulting with business,
+                                stakeholders and teams. Custom front-end delivery for several projects. Collaboration
+                                with IT Department to support business.</p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>SharePoint & Web Specialist</h4>
+                            <h5>July 2007 - July 2015</h5>
+                            <p><em>Life Healthcare, Jhb ZA</em></p>
+                            <p>Windows/IIS/SharePoint Server Administrator, Web Master & Developer, Consultant, User
+                                support, User training.</p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Data Analyst / Web Administrator</h4>
+                            <h5>July 2000 - June 2007</h5>
+                            <p><em>GlenrandMIB (now AON South Africa), Jhb ZA</em></p>
+                            <p>Claims reporting, Business Objects reporting, Microsoft SharePoint Intranet & Extranet
+                                Administration and maintenance.</p>
+                        </div><!-- Edn Resume Item -->
+
+                        <div class="resume-item">
+                            <h4>Junior LAN Administrator</h4>
+                            <h5>Feb 1999 - February 2000</h5>
+                            <p><em>Nedbank (Nedcor South Africa), Jhb ZA</em></p>
+                            <p>Server and desktop administration, Computers setup on network, Troubleshooting, User
+                                support. Y2K Rollout/Upgrade.</p>
+                        </div><!-- Edn Resume Item -->
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- /Resume Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+                <p>This portfolio showcases a selection of websites developed for clients and organizations I have
+                    collaborated with.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-mobile">Mobile</li>
+                        <li data-filter=".filter-sharepoint">SharePoint</li>
+                        <li data-filter=".filter-websites">Websites</li>
+                        <li data-filter=".filter-webapp">Web App</li>
+                        <li data-filter=".filter-wordpress">WordPress</li>
+                    </ul><!-- End Portfolio Filters -->
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-wordpress">
+                            <img src="assets/img/portfolio/BjornBottin_Mobile_v1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>BjornBottin 1</h4>
+                                <p>Mobile view of front page</p>
+                                <a href="assets/img/portfolio/BjornBottin_Mobile_v1.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-wordpress">
+                            <img src="assets/img/portfolio/BjornBottin_Mobile_v2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>BjornBottin 2</h4>
+                                <p>Mobile view of front page</p>
+                                <a href="assets/img/portfolio/BjornBottin_Mobile_v2.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-wordpress">
+                            <img src="assets/img/portfolio/BjornBottin_Mobile_v3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>BjornBottin 3</h4>
+                                <p>Mobile view of front page</p>
+                                <a href="assets/img/portfolio/BjornBottin_Mobile_v3.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                            <img src="assets/img/portfolio/VisionAviation_Mobile1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Vision Aviation</h4>
+                                <p>Mobile view of front page</p>
+                                <a href="assets/img/portfolio/VisionAviation_Mobile1.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                            <img src="assets/img/portfolio/VisionAviation_Mobile2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Vision Aviation</h4>
+                                <p>Mobile view of front page</p>
+                                <a href="assets/img/portfolio/VisionAviation_Mobile2.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                            <img src="assets/img/portfolio/BjornBottin_CV_Mobile.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>BjornBottin</h4>
+                                <p>Mobile view of front page - First CV/Portfolio Website </p>
+                                <a href="assets/img/portfolio/BjornBottin_CV_Mobile.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-webapp">
+                            <img src="assets/img/portfolio/Business_Meetings_Web_App1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Mobile Web App</h4>
+                                <p>Web app build for previous employer</p>
+                                <a href="assets/img/portfolio/Business_Meetings_Web_App1.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-webapp">
+                            <img src="assets/img/portfolio/Business_Meetings_Web_App2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Mobile Web App</h4>
+                                <p>Web app build for previous employer</p>
+                                <a href="assets/img/portfolio/Business_Meetings_Web_App2.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile filter-webapp">
+                            <img src="assets/img/portfolio/Business_Meetings_Web_App3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Mobile Web App</h4>
+                                <p>Web app build for previous employer</p>
+                                <a href="assets/img/portfolio/Business_Meetings_Web_App3.jpg" title="App 1"
+                                    data-gallery="portfolio-gallery-mobile" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sharepoint">
+                            <img src="assets/img/portfolio/SP_Fraud_Awareness_mobile1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Bespoke SharePoint Team Site</h4>
+                                <p>Bespoke development for previous employer</p>
+                                <a href="assets/img/portfolio/SP_Fraud_Awareness_mobile1.jpg" title="Product 1"
+                                    data-gallery="portfolio-gallery-sharepoint" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sharepoint">
+                            <img src="assets/img/portfolio/SP_Fraud_Awareness_mobile2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Bespoke SharePoint Team Site</h4>
+                                <p>Bespoke development for previous employer</p>
+                                <a href="assets/img/portfolio/SP_Fraud_Awareness_mobile2.jpg" title="Product 1"
+                                    data-gallery="portfolio-gallery-sharepoint" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sharepoint">
+                            <img src="assets/img/portfolio/SP_Fraud_Awareness_mobile3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Bespoke SharePoint Team Site</h4>
+                                <p>Bespoke development for previous employer</p>
+                                <a href="assets/img/portfolio/SP_Fraud_Awareness_mobile3.jpg" title="Product 1"
+                                    data-gallery="portfolio-gallery-sharepoint" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/VisionAviation1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Vision Aviation</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/VisionAviation1.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/VisionAviation2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Vision Aviation</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/VisionAviation2.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/Life_Healthcare1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Life Healthcare</h4>
+                                <p>Full desktop web page for previous employer</p>
+                                <a href="assets/img/portfolio/Life_Healthcare1.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/Life_Healthcare2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Life Healthcare</h4>
+                                <p>Full desktop web page for previous employer</p>
+                                <a href="assets/img/portfolio/Life_Healthcare2.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/Life_Healthcare3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Life Healthcare</h4>
+                                <p>Full desktop web page for previous employer</p>
+                                <a href="assets/img/portfolio/Life_Healthcare3.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+                            <img src="assets/img/portfolio/Life_Healthcare4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Life Healthcare</h4>
+                                <p>Full desktop web page for previous employer</p>
+                                <a href="assets/img/portfolio/Life_Healthcare4.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-websites" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/Lanseriarefurb_home1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/Lanseriarefurb_home1.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/LanseriaRefurb_Gallery-1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/LanseriaRefurb_Gallery-1.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/LanseriaRefurb_Blog1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/LanseriaRefurb_Blog1.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/LanseriaRefurb_Blog2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/LanseriaRefurb_Blog2.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/LanseriaRefurb_Gallery_Ext.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/LanseriaRefurb_Gallery_Ext.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-wordpress">
+                            <img src="assets/img/portfolio/LanseriaRefurb_Gallery_Int.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Lanseria Aircraft Refurbishment</h4>
+                                <p>Full desktop web page</p>
+                                <a href="assets/img/portfolio/LanseriaRefurb_Gallery_Int.jpg" title="App 2"
+                                    data-gallery="portfolio-gallery-wordpress" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                        class="bi bi-link-45deg"></i></a> -->
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                    </div><!-- End Portfolio Container -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Portfolio Section -->
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
@@ -809,7 +1253,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Feel free to contact me via any of the methods below</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade" data-aos-delay="100">
@@ -821,7 +1265,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Randpark Ridge, Johannesburg, South Africa</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -829,7 +1273,7 @@
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+27 082 xxx xxxx</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -837,8 +1281,9 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                        data-cfemail="98f1f6fef7d8fde0f9f5e8f4fdb6fbf7f5">[email&#160;protected]</a></p>
+                                <!-- <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                        data-cfemail="98f1f6fef7d8fde0f9f5e8f4fdb6fbf7f5">[email&#160;protected]</a></p> -->
+                                <p><a href="mailto:info@bjornbottin.co.za">info@bjornbottin.co.za</a></p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -883,6 +1328,13 @@
 
                 </div>
 
+                <div class="row gy-4 google_map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.0041877134067!2d27.932992077334518!3d-26.09878197714167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95757a6676ff07%3A0x127843669db3bc44!2sBenguela%20Ave%2C%20Randpark%20Ridge%2C%20Randburg%2C%202169!5e0!3m2!1sen!2sza!4v1733175913383!5m2!1sen!2sza"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
             </div>
 
         </section><!-- /Contact Section -->
@@ -891,19 +1343,18 @@
 
     <footer id="footer" class="footer position-relative light-background">
         <div class="container">
-            <h3 class="sitename">Brandon Johnson</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-                placeat.</p>
+            <p>I am always available to assist with any general or technical inquiries, suggestions, or feedback you may
+                have.</p>
             <div class="social-links d-flex justify-content-center">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/BjornBottin" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/BjornBottin.co.za/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/bottinb/" target="_blank"><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-skype"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/bjorn-bottin/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
             <div class="container">
                 <div class="copyright">
-                    <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights
+                    <span>Copyright 2024</span> <strong class="px-1 sitename">Björn Bottin</strong> <span>All Rights
                         Reserved</span>
                 </div>
                 <div class="credits">
@@ -911,7 +1362,7 @@
                     <!-- You can delete the links only if you've purchased the pro version. -->
                     <!-- Licensing information: https://bootstrapmade.com/license/ -->
                     <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    Developed by <a href="https://bjornbottin.co.za/">BjornBottin</a>
                 </div>
             </div>
         </div>
@@ -925,20 +1376,20 @@
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="../../vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../vendors/php-email-form/validate.js"></script>
-    <script src="../../vendors/aos/aos.js"></script>
-    <script src="../../vendors/typed.js/typed.umd.js"></script>
-    <script src="../../vendors/purecounter/purecounter_vanilla.js"></script>
-    <script src="../../vendors/waypoints/noframework.waypoints.js"></script>
-    <script src="../../vendors/glightbox/js/glightbox.min.js"></script>
+    <script data-cfasync="false" src="/assets/vendors/php-email-form/email-decode.min.js"></script>
+    <script src="/assets/vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendors/php-email-form/validate.js"></script>
+    <script src="/assets/vendors/js/aos.js"></script>
+    <script src="/assets/vendors/js/typed.umd.js"></script>
+    <script src="/assets/vendors/js/purecounter_vanilla.js"></script>
+    <script src="/assets/vendors/js/noframework.waypoints.js"></script>
+    <script src="/assets/vendors/js/glightbox.min.js"></script>
     <script src="/assets/vendors/js/imagesloaded.pkgd.min.js"></script>
     <script src="/assets/vendors/js/isotope.pkgd.min.js"></script>
     <script src="/assets/vendors/js/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 
     <script defer
         src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
