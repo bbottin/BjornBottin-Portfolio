@@ -1,9 +1,7 @@
 /**
- * Template Name: MyResume
- * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
- * Updated: Jun 29 2024 with Bootstrap v5.3.3
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
+ * Template Name: BjornBottinPortfolio
+ * Updated: 3 Dec 2024 with Bootstrap v5.3.3
+ * Author: BjornBottin.co.za
  */
 
 (function () {
@@ -225,7 +223,7 @@
       if (!navmenulink.hash) return;
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
-      let position = window.scrollY + 200;
+      let position = window.scrollY + 250;
       if (
         position >= section.offsetTop &&
         position <= section.offsetTop + section.offsetHeight
